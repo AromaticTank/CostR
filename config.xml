@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.aromatictank.costr" version="1.0.0" xmlns="http://www.w3.org/2000/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CostR</name>
+    <description>
+        A comprehensive mobile-first application for small businesses and freelancers to manage invoices, quotations, customers, inventory, and track payments.
+    </description>
+    <author email="aromatictank@gmail.com" href="https://aromatictank.com">
+        AromaticTank Dev Team
+    </author>
+    <content src="index.html" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="AndroidPersistentFileLocation" value="Internal" />
+        <preference name="LoadUrlTimeoutValue" value="60000" />
+        <preference name="BackgroundColor" value="0xFFF3F4F6" />
+        <preference name="StatusBarBackgroundColor" value="#1e3a8a" />
+        <preference name="StatusBarStyle" value="lightcontent" />
+        <preference name="SplashMaintainAspectRatio" value="true" />
+        <preference name="SplashShowOnlyFirstTime" value="false" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="FadeSplashScreen" value="true" />
+        <preference name="FadeSplashScreenDuration" value="500" />
+        <preference name="ShowSplashScreenSpinner" value="false" />
+        <preference name="SuppressesSuspendedEvents" value="true" />
+        <preference name="WebContentsDebuggingEnabled" value="false" />
+        <preference name="AndroidXEnabled" value="true" />
+        <preference name="GradlePluginKotlinEnabled" value="true" />
+        <preference name="GradlePluginKotlinVersion" value="1.9.0" />
+        <icon density="ldpi" src="res/android/icons/ldpi-icon.png" />
+        <icon density="mdpi" src="res/android/icons/mdpi-icon.png" />
+        <icon density="hdpi" src="res/android/icons/hdpi-icon.png" />
+        <icon density="xhdpi" src="res/android/icons/xhdpi-icon.png" />
+        <icon density="xxhdpi" src="res/android/icons/xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="res/android/icons/xxxhdpi-icon.png" />
+        <splash density="land-ldpi" src="res/android/splash/land-ldpi-splash.png" />
+        <splash density="land-mdpi" src="res/android/splash/land-mdpi-splash.png" />
+        <splash density="land-hdpi" src="res/android/splash/land-hdpi-splash.png" />
+        <splash density="land-xhdpi" src="res/android/splash/land-xhdpi-splash.png" />
+        <splash density="land-xxhdpi" src="res/android/splash/land-xxhdpi-splash.png" />
+        <splash density="land-xxxhdpi" src="res/android/splash/land-xxxhdpi-splash.png" />
+        <splash density="port-ldpi" src="res/android/splash/port-ldpi-splash.png" />
+        <splash density="port-mdpi" src="res/android/splash/port-mdpi-splash.png" />
+        <splash density="port-hdpi" src="res/android/splash/port-hdpi-splash.png" />
+        <splash density="port-xhdpi" src="res/android/splash/port-xhdpi-splash.png" />
+        <splash density="port-xxhdpi" src="res/android/splash/port-xxhdpi-splash.png" />
+        <splash density="port-xxxhdpi" src="res/android/splash/port-xxxhdpi-splash.png" />
+    </platform>
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="ScrollEnabled" value="false" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen.xml" />
+    <preference name="AndroidWindowSplashScreenBackground" value="#F3F4F6" />
+    <preference name="AndroidWindowSplashScreenAnimationDuration" value="2000" />
+</widget>
